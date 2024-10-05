@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8"> 
+<meta name="description" content="consulta">
+    <link rel="stylesheet" href="estilos/estilos.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<title> consulta </title>
+
+</head> 
+
+<body class="ital centamar izq">
+
+<h1> Dejanos tu consulta aca abajo</h1>
+
+<form> 
+
+<p>
+<label for="name"> *Nombre </label>
+<input type="text" name="name"id="name"
+placeholder="juan perez"
+autofocus
+autocomplete
+required>
+</p> 
+
+<p>
+<label for="phone">Telefono</label>
+<input type="tel" name="phone" id="phone" placeholder="+541125263698">
+</p>
+
+<p>
+<label for="email">*Email</label>
+<input type="email" name="email" id="email" placeholder="ejemplo@email,com"
+autocomplete
+required>
+</p> 
+
+
+<p>
+<fieldset>
+<legend>¿Sobre que especialidad queres consultar?</legend>
+<p><label> <input type="radio" name="especialidad" value="Ortodoncia">Ortodoncia</label></p>
+<p><label> <input type="radio" name="especialidad" value="Endodoncia">Endodoncia</label></p>
+<p><label> <input type="radio" name="especialidad" value="Exodoncia">Exodoncia</label></p>
+</fieldset>
+</p>
+
+<p>
+    <textarea id="texto" name="texto" rows="25" cols="100" placeholder="Deje su consulta aquí"></textarea>
+    
+</p>
+
+<input type="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>

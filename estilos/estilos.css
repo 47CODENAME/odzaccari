@@ -1,0 +1,51 @@
+body
+    {background-color:
+     rgba(204, 0, 255, 0.712);
+    flex: auto;
+    padding: 0;}
+
+html {font-size: 18px;}
+
+#marca {
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.centamar {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  }
+
+ul { list-style-type: none;}
+#foto 
+{  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.ital {font-style: italic; 
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;     
+}
+
+.bold { font-weight: bold;
+
+}
+
+.opciones {
+  background-color: none;
+  border: none;
+  padding: 50px;
+  margin: 10px auto ;
+  width: 300px;
+  text-align: center;
+}
+
+.youtube {
+  text-align: center;}
+
+.izq {text-align: left;}
+
+.imag {aspect-ratio: auto;
+  width: 500px; }
